@@ -21,8 +21,12 @@
 
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
            id="cordova-plugin-compat"
-      version="0.0.1">
-    <name>compat</name>
+      version="1.0.0">
+    <name>Compat</name>
+    <description>Cordova Compatibility Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,compat</keywords>
+    <repo>https://git-wip-us.apache.org/repos/asf/cordova-plugin-compat.git</repo>
 
     <!-- android -->
     <platform name="android">
