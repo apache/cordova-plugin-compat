@@ -30,7 +30,8 @@
 
     <!-- android -->
     <platform name="android">
-        <source-file src="src/android/PermissionHelper.java" target-dir="src/org/apache/cordova" />
+      <source-file src="src/android/PermissionHelper.java" target-dir="src/org/apache/cordova" />
+      <source-file src="src/android/BuildHelper.java" target-dir="src/org/apache/cordova" />
     </platform>
 
 </plugin>
