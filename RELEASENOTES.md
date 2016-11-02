@@ -20,6 +20,10 @@
 -->
 # Release Notes
 
+### 1.1.0 (Nov 02, 2016)
+* [CB-11625](https://issues.apache.org/jira/browse/CB-11625) Adding the `BuildConfig` fetching code as a backup to using a new preference
+* Add github pull request template
+
 ### 1.0.0 (Apr 15, 2016)
 * Initial release
 * Moved `PermissionHelper.java` into `src`
