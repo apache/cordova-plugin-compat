@@ -21,7 +21,7 @@
 
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
            id="cordova-plugin-compat"
-      version="1.1.1-dev">
+      version="1.2.0-dev">
     <name>Compat</name>
     <description>Cordova Compatibility Plugin</description>
     <license>Apache 2.0</license>
