@@ -21,12 +21,17 @@
 
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
            id="cordova-plugin-compat"
-      version="1.1.1-dev">
+      version="1.2.0-dev">
     <name>Compat</name>
     <description>Cordova Compatibility Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,compat</keywords>
     <repo>https://git-wip-us.apache.org/repos/asf/cordova-plugin-compat.git</repo>
+
+    <engines>
+      <engine name="cordova" version=">=5.0.0"/>
+      <engine name="cordova-android" version="<6.3.0"/>
+    </engines>
 
     <!-- android -->
     <platform name="android">
