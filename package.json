@@ -21,12 +21,17 @@
         "ecosystem:phonegap",
         "cordova-android"
     ],
-    "engines": [
-        {
-            "name": "cordova",
-            "version": ">=5.0.0"
+    "engines": {
+      "cordovaDependencies": {
+        "<1.2.0": {
+          "cordova": ">=5.0.0"
+        },
+        "1.2.0": {
+          "cordova": ">=5.0.0",
+          "cordova-android": "<6.3.0"
         }
-    ],
+      }
+    },
     "author": "Apache Software Foundation",
     "license": "Apache-2.0"
 }

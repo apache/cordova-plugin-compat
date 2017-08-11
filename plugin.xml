@@ -28,6 +28,11 @@
     <keywords>cordova,compat</keywords>
     <repo>https://git-wip-us.apache.org/repos/asf/cordova-plugin-compat.git</repo>
 
+    <engines>
+      <engine name="cordova" version=">=5.0.0"/>
+      <engine name="cordova-android" version="<6.3.0"/>
+    </engines>
+
     <!-- android -->
     <platform name="android">
       <source-file src="src/android/PermissionHelper.java" target-dir="src/org/apache/cordova" />
