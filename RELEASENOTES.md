@@ -20,7 +20,7 @@
 -->
 # Release Notes
 
-### 1.2.0 (Sep 18, 2017)
+### 2.0.0 (Sep 18, 2017)
 * [CB-12730](https://issues.apache.org/jira/browse/CB-12730) Integrate this plugin into `cordova-android@6.3.0` and deprecate this plugin as it is no longer needed.
 * [CB-12730](https://issues.apache.org/jira/browse/CB-12730) Prevent plugin from installing with `cordova-android >= 6.3.0`
 
