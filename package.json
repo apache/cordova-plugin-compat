@@ -1,7 +1,7 @@
 {
   "name": "cordova-plugin-compat",
   "description": "[DEPRECATED] This repo is for remaining backwards compatible with previous versions of Cordova.",
-  "version": "2.0.0",
+  "version": "1.2.1-dev",
   "homepage": "http://github.com/apache/cordova-plugin-compat#readme",
   "repository": {
     "type": "git",
